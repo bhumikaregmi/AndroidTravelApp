@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="light">#2196F3</color>
+    <color name="fav"> #ff33cc</color>
+    <color name="pink">#ffcccc</color>
+    <color name="mix">#148fad</color>
+    <color name="sky">#8C9FFF</color>
+    <color name="c1"> #ccffff</color>
+    <color name="blue">#0606F3</color>
+    <color name="green">#00ff00</color>
+
+
+</resources>

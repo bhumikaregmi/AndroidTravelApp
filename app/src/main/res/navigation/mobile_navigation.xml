@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.yourdestination.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_destination"
+        android:name="com.example.yourdestination.ui.destination.DestinationFragment"
+        android:label="Destination"
+        tools:layout="@layout/fragment_destination" />
+
+    <fragment
+        android:id="@+id/nav_aboutUs"
+        android:name="com.example.yourdestination.ui.aboutus.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_aboutus" />
+
+    <fragment
+        android:id="@+id/nav_rateUs"
+        android:name="com.example.yourdestination.ui.rateus.RateUsFragment"
+        android:label="Rate Us"
+        tools:layout="@layout/fragment_rateus" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.yourdestination.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+</navigation>
